@@ -1,1 +1,1 @@
-export const BACKEND_URL="http://localhost:3000/api/v1/todoApp/"
+export const BACKEND_URL="https://1400xtodo-be.vercel.app/api/v1/todoApp/"
