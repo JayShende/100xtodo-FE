@@ -1,6 +1,6 @@
 import { LoginForm } from "@/components/login-form"
 import { useNavigate } from "react-router-dom"
-
+import img from "../assets/img.png"
 
 export default function SignupPage() {
   const navigate=useNavigate();
@@ -26,7 +26,7 @@ export default function SignupPage() {
       </div>
       <div className="relative hidden bg-muted lg:block">
         <img
-          src="src\assets\vlcsnap-2023-09-14-20h35m09s186.png"
+          src={img}
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />
