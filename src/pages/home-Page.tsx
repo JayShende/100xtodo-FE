@@ -1,9 +1,7 @@
 import { AnimatedBeamDemo } from "@/components/beam-component";
 import { NavigationHome} from "@/components/navbar-2";
-import { DarkModeToggleCheckboxDemo } from "@/components/theme-toggle";
 import { BorderBeam } from "@/components/ui/border-beam";
 import Meteors from "@/components/ui/meteors";
-import { useNavigate } from "react-router-dom";
 
 export function Homepage() {
   return (
